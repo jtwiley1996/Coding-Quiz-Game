@@ -3,12 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Code Quiz!</title>
 </head>
 <body>
     <header>
-        <h1>Coding Quiz!</h1>
-        <button class="start-button" disabled="">Start</button>
+        <button class="button" disabled="">Start Quiz</button>
+        <div class="timer">
+            Time :
+            <div class="timer-count"> 60 </div>
+            </div>
     </header>
+
+
+    <main>
+        <div class="start-page">
+        <h1>
+            Coding Quiz!
+        </h1>
+        <p>
+            You have 30 seconds to answer as many questions as possible. Each wrong answer subtracts 5 seconds. Good luck!
+        </p>
+        </div>
+    </main>
+    <footer>
+        <button class="button">
+            View High Scores
+        </button>
+        <button class="button">
+            Reset High Scores
+        </button>
+    </footer>
+
+    <script src="./assets/script.js"></script>
 </body>
 </html>
